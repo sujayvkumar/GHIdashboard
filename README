@@ -1,0 +1,6 @@
+/opt/homebrew/bin/python3 -m venv .venv
+source .venv/bin/activate
+
+pip install tifffile numpy pillow
+
+.venv/bin/python3 gdacs_dashboard_latest.py
